@@ -1,0 +1,22 @@
+{
+  "name": "innermindco",
+  "version": "1.0.0",
+  "description": "innermindco monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": " ./src/index.ts",
+  "scripts": {
+    "build": "tsc --build --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monorepo"
+  ],
+  "author": {
+    "name": "Jason Breitigan",
+    "email": "jason.breitigan@gmail.com"
+  },
+  "license": "MIT"
+}
