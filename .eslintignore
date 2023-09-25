@@ -1,0 +1,42 @@
+# Ignore node_modules
+node_modules/*
+
+# Ignore some folders
+benchmark/*
+.config/*
+config/*
+coverage/*
+dist/*
+logs/*
+tools/*
+webpack/*
+
+# Ignore not supported files
+!.*.js
+*.d.ts
+
+commitlint.config.js
+commitlint.config.cjs
+commitlint.config.ts
+.eslintrc.js
+.eslintrc.cjs
+eslint.config.js
+eslint.config.cjs
+babel.config.js
+babel.config.cjs
+karma.conf.js
+karma.conf.ts
+.lighthouserc.cjs
+.lintstagedrc.cjs
+prettier.config.cjs
+prettier.config.js
+
+.env
+
+# Ignore precompiled schemas
+schemas/**/*.check.js
+
+# Ignore some test files
+test/*
+test/**/*.js
+test/**/**/*.js
