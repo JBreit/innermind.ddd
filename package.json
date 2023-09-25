@@ -1,7 +1,7 @@
 {
-  "name": "innermindco",
+  "name": "innermindco.dev",
   "version": "1.0.0",
-  "description": "innermindco monorepo",
+  "description": "innermindco",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -14,9 +14,33 @@
   "keywords": [
     "monorepo"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBreit/innermindco.git"
+  },
   "author": {
     "name": "Jason Breitigan",
     "email": "jason.breitigan@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JBreit/innermindco/issues"
+  },
+  "homepage": "https://github.com/JBreit/innermindco#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.3",
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.6.5",
+    "concurrently": "^8.2.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-watch": "^8.0.0",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.1"
+  }
 }
